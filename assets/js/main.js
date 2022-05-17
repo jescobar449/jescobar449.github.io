@@ -13,6 +13,7 @@
 		$nav = $('#nav'),
 		$main = $('#main'),
 		$navPanelToggle, $navPanel, $navPanelInner;
+		
 
 	// Breakpoints.
 		breakpoints({
@@ -26,7 +27,7 @@
 		});
 
 	/**
-	 * Applies parallax scrolling to an element's background image.
+	 * Applies parallax scrolling to an element's background .
 	 * @return {jQuery} jQuery object.
 	 */
 	$.fn._parallax = function(intensity) {
@@ -257,6 +258,10 @@
 			});
 
 		}
+
+	
+
+
 
 	//header
 	/*

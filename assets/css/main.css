@@ -16,7 +16,7 @@ u, i, center, dl, dt, dd, ol, ul, li, fieldset,
 form, label, legend, table, caption, tbody,
 tfoot, thead, tr, th, td, article, aside,
 canvas, details, embed, figure, figcaption,
-footer, header, hgroup, Links, nav, output, ruby,
+footer, header, hgroup, menu, nav, output, ruby,
 section, summary, time, mark, audio, video {
 	margin: 0;
 	padding: 0;
@@ -3748,7 +3748,7 @@ input, select, textarea {
 		@media screen and (max-width: 980px) {
 
 			#nav {
-				display: none;
+				display: inline-block;
 			}
 
 		}
@@ -4686,6 +4686,11 @@ input, select, textarea {
 			visibility: visible;
 		}
 
+	}
+
+	#first {
+		position: fixed;
+		bottom: 0;
 	}
     
 
