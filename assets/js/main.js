@@ -127,10 +127,11 @@
 
 		// Toggle.
 			$navPanelToggle = $(
-				'<a href="#navPanel" id="navPanelToggle">Menu</a>'
+				'<a href="#navPanel" id="navPanelToggle">Links</a>'
 			)
 				.appendTo($wrapper);
 
+				
 			// Change toggle styling once we've scrolled past the header.
 				$header.scrollex({
 					bottom: '5vh',
@@ -140,7 +141,9 @@
 					leave: function() {
 						$navPanelToggle.addClass('alt');
 					}
-				});
+				}); 
+
+
 
 		// Panel.
 			$navPanel = $(
@@ -254,5 +257,27 @@
 			});
 
 		}
+
+	//header
+	/*
+		// When the user scrolls the page, execute myFunction
+		window.onscroll = function() {myFunction()};
+
+		// Get the header
+		var myHeader = document.getElementById("myHeader");
+
+		// Get the offset position of the navbar
+		var sticky = $header.offsetTop;
+
+		// Add the sticky class to the header when you reach its scroll position. Remove "sticky" when you leave the scroll position
+		function myFunction() {
+	 	if (window.pageYOffset > sticky) {
+			myHeader.classList.add("sticky");
+	  	} else {
+			myHeader.classList.remove("sticky");
+	 	}
+		}
+		*/
+		
 
 })(jQuery);
