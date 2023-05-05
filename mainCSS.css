@@ -1,5 +1,37 @@
 /* Name: Jose Melquiades Escobar */
 /* main CSS file */
-p {
-	color: blue;
+body {
+	background-color: grey;
+	padding-left: 15%;
+	padding-right: 15%;
 }
+
+table, tr, td	{ border: 1px solid black ; } 
+
+table{
+	width: 100%;	
+	text-align: center;
+	border-width: 3px ;
+}
+
+tr a {
+	font-size: 1.2em;
+	display: block;
+	color: black;
+	text-decoration: none; 
+}
+
+td {
+	width: 25%;
+}
+
+td a:hover {
+	background-color: rgb(255, 223, 63);
+	color: black;
+}
+
+img {
+			max-width: 10em;
+			max-height: 10em;
+		}
+
